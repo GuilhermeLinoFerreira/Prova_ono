@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    background-size: 200%;
+    background-image: linear-gradient(70deg, #2c0317, #3a0425, #4f0048, #001961, #141071);
+    /* #93a2a3, #a7b2b6, #bcc3c8, #d1d4d9, #e5e6e9, #e5e7ec, #e6e7f0, #e7e8f3, #d2d7eb, #bbc7e2, #a2b8da, #86aad1 */
+}
+
+
+.cabecalho{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: ghostwhite;
+    opacity: 85%;
+    padding-bottom: 55px;
+
+}
+
+.informativo {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.paragrafo{
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    opacity: 85%;
+    display: flex;
+    
+
+}
+
+
+.texto_guita{
+    font-size: 50px;
+    width: 100%;
+    color: ghostwhite;
+    opacity: 85%;
+    padding-top: 200px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 110px;
+    justify-content: center ;
+    text-align: center;
+}
+
+.foto{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+
+    /* https://www.youtube.com/watch?v=jhLHQYZayeQ */
+
+}
+
+.kiko {
+    display: flex;
+    align-items:stretch;
+
+}
+
+.texto_geral{
+    color: ghostwhite;
+    opacity: 90%;
+    width: 100%;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 10%;
+    padding-top: 30px;
+
+}
+
+.imagem_trabalho {
+    display: block;
+    width: 45%;
+
+
+
+}
+
+.menu-container{
+    color: white;
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.hide{
+    display: none;
+}
+
+#guicorno {
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.faccao{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+
+}  
+
+#txt{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#txt_M{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.mafia{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+#txt_p{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Policia{
+    width: 400px;
+    height: 400px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+body.Dark{
+    background-image: linear-gradient(70deg, #fafafa, #c4c4c4, #d6d6d6, #91949e, #a0a0a0);
+   
+}
+
+._contato{
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+}
+
+#myBtn{ 
+    background-color:  #ff6c0a; 
+    border-radius: 65px; 
+    bottom: 14px; 
+    box-shadow: 2px 3px 19px -2px rgba(231, 5, 5, 0.75); 
+    color: #d9a000; 
+    font-size: 30px; 
+    cursor: pointer; 
+    height: 40px; 
+    position: fixed; 
+    right: 22px; 
+    width: 40px; 
+    z-index: 3; 
+    }
